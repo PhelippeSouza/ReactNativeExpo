@@ -16,12 +16,12 @@ import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplet
 const MapsScreen = () => {
   const navigation = useNavigation();
   const [pin, setPin] = useState({
-    latitude: 37.78825,
-    longitude: -122.4324,
+    latitude: -21.80472,
+    longitude: -48.17305,
   });
   const [region, setRegion] = useState({
-    latitude: 37.78825,
-    longitude: -122.4324,
+    latitude: -21.80472,
+    longitude: -48.17305,
     latitudeDelta: 0.0922,
     longitudeDelta: 0.0421,
   });
@@ -85,8 +85,8 @@ const MapsScreen = () => {
       <MapView
         style={styles.mapStyle}
         initialRegion={{
-          latitude: 37.78825,
-          longitude: -122.4324,
+          latitude: -21.80472,
+          longitude: -48.17305,
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         }}
